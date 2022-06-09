@@ -225,11 +225,12 @@ section .title::after{
 }
 /* about section styling */
 .about{
-    background: rgba(0, 119, 255, 0.416);
+    background: rgb(0, 0, 0);
     background-size: 2000px;
 }
 .about .title::after{
     content: "essence of tatva ";
+    
 }
 .about .about-content .left{
    width: 45%;
