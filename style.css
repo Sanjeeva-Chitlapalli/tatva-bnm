@@ -4,7 +4,10 @@
     font-family: 'tatvaFont';
     src: url(images/Permanent_Marker/PermanentMarker-Regular.ttf);
 }
-
+@font-face {
+    font-family: 'bnmFont';
+    src: url(images/English111\ Vivace\ BT.ttf);
+}
 
 * {
     margin: 0;
@@ -22,6 +25,9 @@ body{
     background-attachment: fixed;
 }
 
+.bnm{
+    font-family: "bnmFont";
+}
 .tatvaText{
     font-family: "tatvaFont", 'Times New Roman', Times, serif;
 }
